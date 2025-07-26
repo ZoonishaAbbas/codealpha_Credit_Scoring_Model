@@ -12,5 +12,5 @@ A machine learning-based credit scoring model to predict loan default risk using
 
 # 📌 Research Conclusion
 The credit scoring model effectively predicts the likelihood of loan default using financial attributes such as income, credit history, and payment behavior. Among the models tested, [e.g., Random Forest] provided the highest accuracy and AUC-ROC score after fine-tuning. The project demonstrates that machine learning can significantly improve the accuracy and efficiency of credit risk evaluation. With proper deployment, such a model can serve as a decision support tool for banks and lending institutions, reducing manual evaluation time and improving financial risk management.
-![screenshot](results.png)
+![screenshot](result.png)
 The credit scoring model demonstrated reliable predictive performance on real-world financial data. It was able to identify potential defaulters based on payment history and repayment amounts. As observed in the results, individuals with lower or zero repayments (e.g., PAY_AMT3 to PAY_AMT6) and higher predicted probabilities were correctly classified as defaulters. The model maintained a good balance between precision and recall, minimizing false positives while still catching most actual defaults.
